@@ -15,6 +15,10 @@
 
 ![Captura de tela 2022-07-26 204438](https://user-images.githubusercontent.com/86244795/181141919-eb6e1f1b-c840-4b16-80a7-1ab9ee672f8a.png)
 
-<h3>Feed público</h3>
+<h3>Postagem de fotos</h3>
 
 ![Captura de tela 2022-07-26 204540](https://user-images.githubusercontent.com/86244795/181142102-1e2d4663-8d84-451d-b2a6-098d704ca3d5.png)
+
+<h3>Graficos sobre as visualizações das fotos</h3>
+
+![Captura de tela 2022-07-26 204509](https://user-images.githubusercontent.com/86244795/181142271-6b7bf94f-f7b4-4471-8168-a4dda1671c0c.png)
