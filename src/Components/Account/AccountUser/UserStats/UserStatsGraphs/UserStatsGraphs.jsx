@@ -14,13 +14,18 @@ const UserStatsGraphs = ({ data }) => {
       };
     });
 
-    setTotal(data.map(({ acessos }) => Number(acessos)).reduce((a, b) => a + b));
+    const totalAccess = data.map(({ acessos }) => parseInt(acessos));
+
+    if (totalAccess.length > 0) {
+      setTotal(totalAccess.reduce((a, b) => a + b));
+    } else {
+      setTotal([]);
+    }
 
     setGraph(graphData);
   }, [data]);
 
-  if (graph.length === 0) return <p className={styles.info}>Sem informações para demonstrar gráficos.</p>;
-
+  if (data.length === 0) return <div className={styles.info}>Sem informações para o gráfico</div>;
   return (
     <section className={`${styles.graph} animeLeft`}>
       <div className={`${styles.total} ${styles.graphItem}`}>
