@@ -18,8 +18,9 @@ const UserStatsGraphs = ({ data }) => {
 
     setGraph(graphData);
   }, [data]);
-  console.log(graph);
-  if (graph.length !== 0) return <p className={styles.info}>Sem informações para demonstrar gráficos.</p>;
+
+  if (graph.length === 0) return <p className={styles.info}>Sem informações para demonstrar gráficos.</p>;
+
   return (
     <section className={`${styles.graph} animeLeft`}>
       <div className={`${styles.total} ${styles.graphItem}`}>
