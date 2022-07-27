@@ -6,3 +6,7 @@
 <h3>Página de Login</h3>
 
 ![Captura de tela 2022-07-26 204609](https://user-images.githubusercontent.com/86244795/181140521-40388b9c-afe0-4e61-a052-a2fe597f4ffe.png)
+
+<h3>Feed público</h3>
+
+![Captura de tela 2022-07-26 202713](https://user-images.githubusercontent.com/86244795/181141720-073ae45b-66c0-4ee8-a5ac-bf9b4b6a189a.png)
