@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=Spectral:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic);
+
+:root {
+  --type-first: Helvetica, Arial, sans-serif;
+  --type-second: "Spectral", Georgia;
+  --primary-color: #fb1;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  padding-top: 4rem;
+  margin: 0;
+  color: #333;
+  font-family: var(--type-first);
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+button,
+input {
+  display: block;
+  font-size: 1rem;
+  font-family: var(--type-first);
+  color: #333;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+.container {
+  max-width: 50rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+.mainContainer {
+  margin-top: 2rem;
+}
+
+.title {
+  font-family: var(--type-second);
+  font-size: 3rem;
+  line-height: 1;
+  margin: 1rem 0;
+  position: relative;
+  z-index: 1;
+}
+.title::after {
+  content: "";
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: var(--primary-color);
+  position: absolute;
+  border-radius: 0.2rem;
+  bottom: 5px;
+  left: -5px;
+  z-index: -1;
+}
+
+/*------------------------animation------------------------*/
+
+.animeLeft {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: animeLeft 0.3s forwards;
+}
+@keyframes animeLeft {
+  to {
+    opacity: 1;
+    transform: initial;
+  }
+}
+
+/*-----------Posicionando os elementos da home------------*/
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh + 10rem);
+}
+.AppBody {
+  flex: 1;
+}
+
+/*-------------alinha o grafico ao centro-----------------*/
+.VictoryContainer {
+  height: initial !important;
+}
