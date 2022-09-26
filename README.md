@@ -1,7 +1,9 @@
 <h1 align="center">Rede Social para Cachorros.</h1>
 <p>Projeto de uma Rede Social para Cachorros.</p>
 <p>Orientado pelo professor André Rafael - Origamid Cursos.<p/>
-[Acesse a Rede Social para Cachorros](https://projeto-dogs-bvttws95a-lucasleitedosreis.vercel.app/ "Rede Social para Cachorros")
+
+[Acesse a Rede Social](https://projeto-dogs-bvttws95a-lucasleitedosreis.vercel.app/ "Rede Social para Cachorros")
+
 <hr>
 <h3>Página de Login</h3>
 
