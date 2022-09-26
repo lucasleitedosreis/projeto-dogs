@@ -1,6 +1,6 @@
 <h1 align="center">Animais Fantásticos</h1>
 
-[Acesse o site](https://lucasleitedosreis.github.io/animais-fantastiscos/ "Animais fantásticos")
+[Acesse a Rede Social](https://projeto-dogs-bvttws95a-lucasleitedosreis.vercel.app/ "Rede Social para Cachorros")
 
 Plataforma de Cursos: Origamid
 
@@ -13,8 +13,6 @@ Professor : André Rafael
    <li>ReactJs</li>
    <li>Css</li>
  </ul>
-
-[Acesse a Rede Social](https://projeto-dogs-bvttws95a-lucasleitedosreis.vercel.app/ "Rede Social para Cachorros")
 
 <hr>
 <h3>Página de Login</h3>
