@@ -1,6 +1,18 @@
-<h1 align="center">Rede Social para Cachorros.</h1>
-<p>Projeto de uma Rede Social para Cachorros.</p>
-<p>Orientado pelo professor André Rafael - Origamid Cursos.<p/>
+<h1 align="center">Animais Fantásticos</h1>
+
+[Acesse o site](https://lucasleitedosreis.github.io/animais-fantastiscos/ "Animais fantásticos")
+
+Plataforma de Cursos: Origamid
+
+Professor : André Rafael
+
+<h3>Site desenvolvido com:</h3>
+
+ <ul>
+   <li>Javascript</li>
+   <li>ReactJs</li>
+   <li>Css</li>
+ </ul>
 
 [Acesse a Rede Social](https://projeto-dogs-bvttws95a-lucasleitedosreis.vercel.app/ "Rede Social para Cachorros")
 
